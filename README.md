@@ -1,11 +1,11 @@
-#Introduction
+# Introduction
 This project is a AZPR SoC implementation for SEA Board.
 
-The AZPR SoC is a well-organized and easy-to-understand processor system-on-a-chip for education purpose. The AZPR SoC is developed for the Japaness textbook ¡¶CPU×Ô×÷ÈëéT¡· £¨Witten by Ë®î^ Ò»‰Û, Ã×É ß| and ÌÙÌï Ô£Ê¿£©,  which is then translated to Chinese, namely ¡¶CPU×ÔÖÆÈëÃÅ¡·(Translated by Qian Zhao)¡£
+The AZPR SoC is a well-organized and easy-to-understand processor system-on-a-chip for education purpose. The AZPR SoC is developed for the Japaness textbook ã€ŠCPUè‡ªä½œå…¥é–€ã€‹ ï¼ˆWitten by æ°´é ­ ä¸€å£½, ç±³æ¾¤ é¼ and è—¤ç”° è£•å£«ï¼‰,  which is then translated to Chinese, namely ã€ŠCPUè‡ªåˆ¶å…¥é—¨ã€‹(Translated by Qian Zhao)ã€‚
 
-#Link
+# Link
 The original AZPR SoC files can be found here:
 https://gihyo.jp/book/2012/978-4-7741-5338-4/support
 
-#License
-As requested by book authors, the source code of AZPR SoC is only for non-commercial usage. You are free to modify and redistribute, but you need to clarify original authors, who are Mr. Ë®î^ Ò»‰Û, Mr. Ã×É ß| and Mr. ÌÙÌï Ô£Ê¿.
+# License
+As requested by book authors, the source code of AZPR SoC is only for non-commercial usage. You are free to modify and redistribute, but you need to clarify original authors, who are Mr. æ°´é ­ ä¸€å£½, Mr. ç±³æ¾¤ é¼ and Mr. è—¤ç”° è£•å£«.

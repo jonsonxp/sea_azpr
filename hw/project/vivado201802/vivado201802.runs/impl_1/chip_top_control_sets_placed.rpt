@@ -1,0 +1,112 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Thu Jul 23 23:41:43 2020
+| Host         : DESKTOP-1R47PR3 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file chip_top_control_sets_placed.rpt
+| Design       : chip_top
+| Device       : xc7s15
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    47 |
+| Unused register locations in slices containing registers |    26 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      8 |            1 |
+|    16+ |           46 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              36 |            7 |
+| No           | No                    | Yes                    |             108 |           22 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |            3422 |          784 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------+--------------------------------------------------+-------------------------------+------------------+----------------+
+|    Clock Signal    |                   Enable Signal                  |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++--------------------+--------------------------------------------------+-------------------------------+------------------+----------------+
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/exp_code_reg[0][0]    | chip/cpu/gpr/gpr_reg[0][31]_0 |                2 |              8 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/mask_reg[7][0]        | chip/cpu/gpr/gpr_reg[0][31]_0 |                4 |             16 |
+|  clk_ref_IBUF_BUFG | chip/cpu/if_stage/bus_if/bus_req__i_1_n_0        | chip/cpu/gpr/gpr_reg[0][31]_0 |                6 |             24 |
+|  clk_ref_IBUF_BUFG |                                                  |                               |                7 |             36 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/exp_vector_reg[29][0] | chip/cpu/gpr/gpr_reg[0][31]_0 |               14 |             60 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/epc_reg[29][0]        | chip/cpu/gpr/gpr_reg[0][31]_0 |               13 |             60 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/br_flag_reg[0]        | chip/cpu/gpr/gpr_reg[0][31]_0 |                8 |             62 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[7][0][0]      | chip/cpu/gpr/gpr_reg[0][31]_0 |               21 |             64 |
+|  clk_ref_IBUF_BUFG | chip/timer/counter[31]_i_1_n_0                   | chip/cpu/gpr/gpr_reg[0][31]_0 |                9 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/if_stage/bus_if/E[0]                    | chip/cpu/gpr/gpr_reg[0][31]_0 |               10 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/if_stage/bus_if/rd_buf[31]_i_1_n_0      | chip/cpu/gpr/gpr_reg[0][31]_0 |               12 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/bus_if/rd_buf[31]_i_1__0_n_0  | chip/cpu/gpr/gpr_reg[0][31]_0 |               16 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[3][0][0]      | chip/cpu/gpr/gpr_reg[0][31]_0 |               14 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[15][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               13 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[14][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               10 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[4][0][0]      | chip/cpu/gpr/gpr_reg[0][31]_0 |               13 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[29][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               19 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[10][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               22 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[13][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               11 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[16][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               21 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[22][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               12 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[21][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               17 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[23][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               20 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[27][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               15 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[5][0][0]      | chip/cpu/gpr/gpr_reg[0][31]_0 |               13 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[6][0][0]      | chip/cpu/gpr/gpr_reg[0][31]_0 |               14 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[11][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               19 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[0][0][0]      | chip/cpu/gpr/gpr_reg[0][31]_0 |               23 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[18][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               17 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[17][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               19 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[19][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               13 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[20][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               20 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[12][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               17 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[24][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               14 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[25][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               12 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[28][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               19 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[2][0][0]      | chip/cpu/gpr/gpr_reg[0][31]_0 |               15 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[1][0][0]      | chip/cpu/gpr/gpr_reg[0][31]_0 |                8 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[30][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               21 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[31][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               26 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[26][0][0]     | chip/cpu/gpr/gpr_reg[0][31]_0 |               16 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[8][0][0]      | chip/cpu/gpr/gpr_reg[0][31]_0 |               19 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/mem_stage/mem_reg/gpr_reg[9][0][0]      | chip/cpu/gpr/gpr_reg[0][31]_0 |               23 |             64 |
+|  clk_ref_IBUF_BUFG | chip/cpu/ex_stage/ex_reg/bus_req__reg            | chip/cpu/gpr/gpr_reg[0][31]_0 |               11 |             88 |
+|  clk_ref_IBUF_BUFG |                                                  | chip/cpu/gpr/gpr_reg[0][31]_0 |               22 |            108 |
+|  clk_ref_IBUF_BUFG | chip/cpu/if_stage/bus_if/if_insn_reg[0]          | chip/cpu/gpr/gpr_reg[0][31]_0 |               34 |            142 |
+|  clk_ref_IBUF_BUFG | chip/cpu/if_stage/bus_if/mem_exp_code_reg[0][0]  | chip/cpu/gpr/gpr_reg[0][31]_0 |              109 |            658 |
++--------------------+--------------------------------------------------+-------------------------------+------------------+----------------+
+
+

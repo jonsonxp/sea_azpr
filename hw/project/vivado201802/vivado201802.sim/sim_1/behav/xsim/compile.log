@@ -1,0 +1,73 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/bus/rtl/bus.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/bus/rtl/bus_addr_dec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus_addr_dec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/bus/rtl/bus_arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus_arbiter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/bus_if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus_if
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/bus/rtl/bus_master_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus_master_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/bus/rtl/bus_slave_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus_slave_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/rtl/chip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/rtl/chip_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chip_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/rtl/clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/ex_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/ex_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/gpio/rtl/gpio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/gpr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/id_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/id_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/if_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/if_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/mem_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/mem_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/mem_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/rom/rtl/rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/spm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/timer/rtl/timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/uart/rtl/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/uart/rtl/uart_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/uart/rtl/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/uart/rtl/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/lib/x_s3e_dcm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module x_s3e_dcm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/lib/x_s3e_dpram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module x_s3e_dpram
+WARNING: [VRFC 10-1315] redeclaration of ansi port doa is not allowed [C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/lib/x_s3e_dpram.v:40]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/lib/x_s3e_sprom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module x_s3e_sprom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/test/chip_top_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chip_top_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/cho/Desktop/SEA_AZPR/hw/project/vivado201802/vivado201802.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

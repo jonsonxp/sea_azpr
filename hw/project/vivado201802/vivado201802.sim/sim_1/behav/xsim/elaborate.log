@@ -1,0 +1,82 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx2/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 63db5ddb80dc41388eab07eb09aee4d2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot chip_top_test_behav xil_defaultlib.chip_top_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/rtl/chip_top.v" Line 20. Module chip_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/rtl/clk_gen.v" Line 17. Module clk_gen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/lib/x_s3e_dcm.v" Line 15. Module x_s3e_dcm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/rtl/chip.v" Line 25. Module chip doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/cpu.v" Line 23. Module cpu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/if_stage.v" Line 20. Module if_stage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/bus_if.v" Line 21. Module bus_if doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/if_reg.v" Line 21. Module if_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/id_stage.v" Line 21. Module id_stage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/decoder.v" Line 21. Module decoder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/id_reg.v" Line 21. Module id_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/ex_stage.v" Line 21. Module ex_stage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/alu.v" Line 20. Module alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/ex_reg.v" Line 21. Module ex_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/mem_stage.v" Line 21. Module mem_stage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/mem_ctrl.v" Line 22. Module mem_ctrl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/bus_if.v" Line 21. Module bus_if doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/mem_reg.v" Line 21. Module mem_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/ctrl.v" Line 23. Module ctrl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/gpr.v" Line 20. Module gpr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/cpu/rtl/spm.v" Line 20. Module spm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/lib/x_s3e_dpram.v" Line 21. Module x_s3e_dpram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/rom/rtl/rom.v" Line 20. Module rom doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/top/lib/x_s3e_sprom.v" Line 20. Module x_s3e_sprom doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/timer/rtl/timer.v" Line 20. Module timer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/uart/rtl/uart.v" Line 20. Module uart doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/uart/rtl/uart_ctrl.v" Line 20. Module uart_ctrl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/uart/rtl/uart_tx.v" Line 20. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/uart/rtl/uart_rx.v" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/gpio/rtl/gpio.v" Line 20. Module gpio doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/bus/rtl/bus.v" Line 20. Module bus doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/bus/rtl/bus_arbiter.v" Line 20. Module bus_arbiter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/bus/rtl/bus_master_mux.v" Line 20. Module bus_master_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/bus/rtl/bus_addr_dec.v" Line 20. Module bus_addr_dec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/bus/rtl/bus_slave_mux.v" Line 20. Module bus_slave_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/cho/Desktop/SEA_AZPR/hw/rtl_sea/io/uart/rtl/uart_rx.v" Line 20. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.x_s3e_dcm
+Compiling module xil_defaultlib.clk_gen
+Compiling module xil_defaultlib.bus_if
+Compiling module xil_defaultlib.if_reg
+Compiling module xil_defaultlib.if_stage
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.id_reg
+Compiling module xil_defaultlib.id_stage
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.ex_reg
+Compiling module xil_defaultlib.ex_stage
+Compiling module xil_defaultlib.mem_ctrl
+Compiling module xil_defaultlib.mem_reg
+Compiling module xil_defaultlib.mem_stage
+Compiling module xil_defaultlib.ctrl
+Compiling module xil_defaultlib.gpr
+Compiling module xil_defaultlib.x_s3e_dpram
+Compiling module xil_defaultlib.spm
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.x_s3e_sprom
+Compiling module xil_defaultlib.rom
+Compiling module xil_defaultlib.timer
+Compiling module xil_defaultlib.uart_ctrl
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.uart
+Compiling module xil_defaultlib.gpio
+Compiling module xil_defaultlib.bus_arbiter
+Compiling module xil_defaultlib.bus_master_mux
+Compiling module xil_defaultlib.bus_addr_dec
+Compiling module xil_defaultlib.bus_slave_mux
+Compiling module xil_defaultlib.bus
+Compiling module xil_defaultlib.chip
+Compiling module xil_defaultlib.chip_top
+Compiling module xil_defaultlib.chip_top_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot chip_top_test_behav

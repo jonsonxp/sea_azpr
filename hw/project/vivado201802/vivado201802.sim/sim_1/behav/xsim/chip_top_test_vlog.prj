@@ -1,0 +1,43 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../rtl_sea/top/include" --include "../../../../../../rtl_sea/cpu/include" --include "../../../../../../rtl_sea/bus/include" --include "../../../../../../rtl_sea/io/rom/include" --include "../../../../../../rtl_sea/io/gpio/include" --include "../../../../../../rtl_sea/io/timer/include" --include "../../../../../../rtl_sea/io/uart/include" \
+"../../../../../../rtl_sea/cpu/rtl/alu.v" \
+"../../../../../../rtl_sea/bus/rtl/bus.v" \
+"../../../../../../rtl_sea/bus/rtl/bus_addr_dec.v" \
+"../../../../../../rtl_sea/bus/rtl/bus_arbiter.v" \
+"../../../../../../rtl_sea/cpu/rtl/bus_if.v" \
+"../../../../../../rtl_sea/bus/rtl/bus_master_mux.v" \
+"../../../../../../rtl_sea/bus/rtl/bus_slave_mux.v" \
+"../../../../../../rtl_sea/top/rtl/chip.v" \
+"../../../../../../rtl_sea/top/rtl/chip_top.v" \
+"../../../../../../rtl_sea/top/rtl/clk_gen.v" \
+"../../../../../../rtl_sea/cpu/rtl/cpu.v" \
+"../../../../../../rtl_sea/cpu/rtl/ctrl.v" \
+"../../../../../../rtl_sea/cpu/rtl/decoder.v" \
+"../../../../../../rtl_sea/cpu/rtl/ex_reg.v" \
+"../../../../../../rtl_sea/cpu/rtl/ex_stage.v" \
+"../../../../../../rtl_sea/io/gpio/rtl/gpio.v" \
+"../../../../../../rtl_sea/cpu/rtl/gpr.v" \
+"../../../../../../rtl_sea/cpu/rtl/id_reg.v" \
+"../../../../../../rtl_sea/cpu/rtl/id_stage.v" \
+"../../../../../../rtl_sea/cpu/rtl/if_reg.v" \
+"../../../../../../rtl_sea/cpu/rtl/if_stage.v" \
+"../../../../../../rtl_sea/cpu/rtl/mem_ctrl.v" \
+"../../../../../../rtl_sea/cpu/rtl/mem_reg.v" \
+"../../../../../../rtl_sea/cpu/rtl/mem_stage.v" \
+"../../../../../../rtl_sea/io/rom/rtl/rom.v" \
+"../../../../../../rtl_sea/cpu/rtl/spm.v" \
+"../../../../../../rtl_sea/io/timer/rtl/timer.v" \
+"../../../../../../rtl_sea/io/uart/rtl/uart.v" \
+"../../../../../../rtl_sea/io/uart/rtl/uart_ctrl.v" \
+"../../../../../../rtl_sea/io/uart/rtl/uart_rx.v" \
+"../../../../../../rtl_sea/io/uart/rtl/uart_tx.v" \
+"../../../../../../rtl_sea/top/lib/x_s3e_dcm.v" \
+"../../../../../../rtl_sea/top/lib/x_s3e_dpram.v" \
+"../../../../../../rtl_sea/top/lib/x_s3e_sprom.v" \
+"../../../../../../rtl_sea/top/test/chip_top_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
